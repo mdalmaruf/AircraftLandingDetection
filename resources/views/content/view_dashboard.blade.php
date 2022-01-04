@@ -12,16 +12,16 @@
                     <!--begin::Mixed Widget 1-->
                     <div class="card card-custom bg-gray-100 card-stretch gutter-b">
                         <!--begin::Header-->
-                        <div class="card-header border-0 bg-danger py-5">
-                            <h3 class="card-title font-weight-bolder text-white">Dashboard Stat</h3>
-                            <div class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis amet magni, facere consectetur quo, voluptas id ab praesentium eos necessitatibus distinctio quia aliquid, quas impedit tempora deserunt repellat iure quibusdam.</div>
-                        
+                        <div class="card-header border-0  py-5">
+{{--                            <h3 class="card-title font-weight-bolder text-white">Dashboard Stat</h3>--}}
+{{--                            <div class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis amet magni, facere consectetur quo, voluptas id ab praesentium eos necessitatibus distinctio quia aliquid, quas impedit tempora deserunt repellat iure quibusdam.</div>--}}
+
                         </div>
                         <!--end::Header-->
                         <!--begin::Body-->
                         <div class="card-body p-0 position-relative overflow-hidden">
                             <!--begin::Chart-->
-                            <div id="" class="card-rounded-bottom bg-danger" style="height: 200px"></div>
+                            <div id="" class="card-rounded-bottom " style="height: 70px"></div>
                             <!--end::Chart-->
                             <!--begin::Stats-->
                             <div class="card-spacer mt-n25">
@@ -41,7 +41,7 @@
                                             </svg>
                                             <!--end::Svg Icon-->
                                         </span>
-                                        <a href="#" class="text-warning font-weight-bold font-size-h6">Weekly Sales</a>
+                                        <a href="#" class="text-warning font-weight-bold font-size-h6">Runway Landing Events</a>
                                     </div>
                                     <div class="col bg-light-primary px-6 py-8 rounded-xl mb-7">
                                         <span class="svg-icon svg-icon-3x svg-icon-primary d-block my-2">
@@ -50,12 +50,13 @@
                                                 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                                     <polygon points="0 0 24 0 24 24 0 24" />
                                                     <path d="M18,8 L16,8 C15.4477153,8 15,7.55228475 15,7 C15,6.44771525 15.4477153,6 16,6 L18,6 L18,4 C18,3.44771525 18.4477153,3 19,3 C19.5522847,3 20,3.44771525 20,4 L20,6 L22,6 C22.5522847,6 23,6.44771525 23,7 C23,7.55228475 22.5522847,8 22,8 L20,8 L20,10 C20,10.5522847 19.5522847,11 19,11 C18.4477153,11 18,10.5522847 18,10 L18,8 Z M9,11 C6.790861,11 5,9.209139 5,7 C5,4.790861 6.790861,3 9,3 C11.209139,3 13,4.790861 13,7 C13,9.209139 11.209139,11 9,11 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
+                                                    <path d="M18,8 L16,8 C15.4477153,8 15,7.55228475 15,7 C15,6.44771525 15.4477153,6 16,6 L18,6 L18,4 C18,3.44771525 18.4477153,3 19,3 C19.5522847,3 20,3.44771525 20,4 L20,6 L22,6 C22.5522847,6 23,6.44771525 23,7 C23,7.55228475 22.5522847,8 22,8 L20,8 L20,10 C20,10.5522847 19.5522847,11 19,11 C18.4477153,11 18,10.5522847 18,10 L18,8 Z M9,11 C6.790861,11 5,9.209139 5,7 C5,4.790861 6.790861,3 9,3 C11.209139,3 13,4.790861 13,7 C13,9.209139 11.209139,11 9,11 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
                                                     <path d="M0.00065168429,20.1992055 C0.388258525,15.4265159 4.26191235,13 8.98334134,13 C13.7712164,13 17.7048837,15.2931929 17.9979143,20.2 C18.0095879,20.3954741 17.9979143,21 17.2466999,21 C13.541124,21 8.03472472,21 0.727502227,21 C0.476712155,21 -0.0204617505,20.45918 0.00065168429,20.1992055 Z" fill="#000000" fill-rule="nonzero" />
                                                 </g>
                                             </svg>
                                             <!--end::Svg Icon-->
                                         </span>
-                                        <a href="#" class="text-primary font-weight-bold font-size-h6 mt-2"><b>{{$count_user}}</b> Users</a>
+                                        <a href="#" class="text-primary font-weight-bold font-size-h6 mt-2"><b>{{$count_user}}</b> Application Users</a>
                                     </div>
                                 </div>
                                 <!--end::Row-->
@@ -73,7 +74,7 @@
                                             </svg>
                                             <!--end::Svg Icon-->
                                         </span>
-                                        <a href="#" class="text-danger font-weight-bold font-size-h6 mt-2">Item Orders</a>
+                                        <a href="#" class="text-danger font-weight-bold font-size-h6 mt-2">Aircraft Landing Data</a>
                                     </div>
                                     <div class="col bg-light-success px-6 py-8 rounded-xl">
                                         <span class="svg-icon svg-icon-3x svg-icon-success d-block my-2">
@@ -87,7 +88,7 @@
                                             </svg>
                                             <!--end::Svg Icon-->
                                         </span>
-                                        <a href="#" class="text-success font-weight-bold font-size-h6 mt-2">Bug Reports</a>
+                                        <a href="#" class="text-success font-weight-bold font-size-h6 mt-2"> Airport Traffic Control Notification</a>
                                     </div>
                                 </div>
                                 <!--end::Row-->
@@ -121,7 +122,7 @@
                                 </span>
                                 <div class="d-flex flex-column text-right">
                                     <span class="text-dark-75 font-weight-bolder font-size-h3">750$</span>
-                                    <span class="text-muted font-weight-bold mt-2">Weekly Income</span>
+                                    <span class="text-muted font-weight-bold mt-2">Snow Removal Cost</span>
                                 </div>
                             </div>
                             <div id="kt_stats_widget_11_chart" class="card-rounded-bottom" data-color="success" style="height: 150px"></div>
@@ -151,7 +152,7 @@
                                 </span>
                                 <div class="d-flex flex-column text-right">
                                     <span class="text-dark-75 font-weight-bolder font-size-h3">+6,5K</span>
-                                    <span class="text-muted font-weight-bold mt-2">New Users</span>
+                                    <span class="text-muted font-weight-bold mt-2">Monthly Air Traffic</span>
                                 </div>
                             </div>
                             <div id="kt_stats_widget_12_chart" class="card-rounded-bottom" data-color="primary" style="height: 150px"></div>
@@ -160,7 +161,7 @@
                     </div>
                     <!--end::Stats Widget 12-->
                 </div>
-                
+
             </div>
         </div>
         <!--end::Container-->

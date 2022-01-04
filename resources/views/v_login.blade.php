@@ -2,15 +2,15 @@
 <!DOCTYPE html>
 <html lang="en">
 	<!--begin::Head-->
-	
+
 
 <!-- x --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /x -->
 <head>
 		<meta charset="utf-8" />
-		<title>OryFikry | BoilerPlates</title>
+		<title>Team | Eagle</title>
 		<meta name="description" content="Login page example" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-	
+
 		<!--begin::Fonts-->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
 		<!--end::Fonts-->
@@ -34,11 +34,12 @@
             .login.login-3 .login-forgot,.login.login-3 .login-signin,.login.login-3 .login-signup{display:none}.login.login-3.login-signin-on .login-signup{display:none}.login.login-3.login-signin-on .login-signin{display:block}.login.login-3.login-signin-on .login-forgot{display:none}.login.login-3.login-signup-on .login-signup{display:block}.login.login-3.login-signup-on .login-signin{display:none}.login.login-3.login-signup-on .login-forgot{display:none}.login.login-3.login-forgot-on .login-signup{display:none}.login.login-3.login-forgot-on .login-signin{display:none}.login.login-3.login-forgot-on .login-forgot{display:block}.login.login-3 .login-form{width:100%;max-width:450px}@media (max-width:575.98px){.login.login-3 .login-form{width:100%;max-width:100%}}
         </style>
 	</head>
+
 	<!--end::Head-->
 	<!--begin::Body-->
 	<body id="kt_body" class="header-fixed header-mobile-fixed subheader-enabled subheader-fixed aside-enabled aside-fixed aside-minimize-hoverable page-loading">
 		<!-- Google Tag Manager (noscript) -->
-		
+
 		<!-- End Google Tag Manager (noscript) -->
 		<!--begin::Main-->
 		<div class="d-flex flex-column flex-root">
@@ -59,16 +60,16 @@
 								<h3>Sign In To Admin</h3>
 								<p class="opacity-60 font-weight-bold">Enter your details to login to your account:</p>
 							</div>
-                            
+
                             <form method="POST" action="{{ route('login') }}">
                                 @csrf
 								<div class="form-group">
 									<input class="form-control h-auto text-white placeholder-white opacity-70 bg-dark-o-70 rounded-pill border-0 py-4 px-8 mb-5" type="email" placeholder="Email" name="email" id="email"/>
-                                  
+
 								</div>
 								<div class="form-group">
 									<input class="form-control h-auto text-white placeholder-white opacity-70 bg-dark-o-70 rounded-pill border-0 py-4 px-8 mb-5" type="password" placeholder="Password" name="password" id="password"/>
-                                
+
 								</div>
 								<div class="form-group d-flex flex-wrap justify-content-between align-items-center px-8">
 									{{-- <div class="checkbox-inline">
@@ -112,7 +113,7 @@
 									<div class="checkbox-inline">
 										<label class="checkbox checkbox-outline checkbox-white text-white m-0">
 										<input type="checkbox" name="agree" />
-										<span></span>I Agree the 
+										<span></span>I Agree the
 										<a href="#" class="text-white font-weight-bold ml-1">terms and conditions</a>.</label>
 									</div>
 									<div class="form-text text-muted text-center"></div>

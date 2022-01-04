@@ -7,7 +7,7 @@
     <!-- Google Tag Manager -->
     <!-- End Google Tag Manager -->
     <meta charset="utf-8" />
-    <title>Oryfikry | Boilerplate</title>
+    <title>Team Eagle</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <!--begin::Fonts-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
@@ -57,7 +57,7 @@
     <script>
         function swag_logout() {
             Swal.fire({
-                title: 'Wanna Out?',
+                title: 'Do you want to log out?',
                 text: "",
                 icon: 'warning',
                 showCancelButton: true,
@@ -83,8 +83,8 @@
     <div id="kt_header_mobile" class="header-mobile align-items-center header-mobile-fixed">
         <!--begin::Logo-->
         <a href="#">
-            {{-- <img alt="Logo" src="{{asset('metch')}}/media/logos/logo-light.png" /> --}}
-            <div class="text-white"><i class="fab fa-angrycreative fa-4x"></i></div>
+             <img alt="Logo" src="{{asset('metch')}}/media/logos/logo_air.PNG" />
+{{--            <div class="text-white"><i class="fab fa-angrycreative fa-4x"></i></div>--}}
         </a>
         <!--end::Logo-->
         <!--begin::Toolbar-->
@@ -131,10 +131,16 @@
                 <div id="kt_header" class="header header-fixed">
                     <!--begin::Container-->
                     <div class="container-fluid d-flex align-items-stretch justify-content-between">
+
                         <!--begin::Header Menu Wrapper-->
                         <div class="header-menu-wrapper header-menu-wrapper-left" id="kt_header_menu_wrapper">
+
                             <!--begin::Header Menu-->
                             <div id="kt_header_menu" class="header-menu header-menu-mobile header-menu-layout-default">
+
+                            </div>
+                            <div style="background-color: orange; width: 850%">
+                                <h1 class="menu-icon fas fa-home " style="color:navy; ">   Dashboard</h1>
                             </div>
                             <!--end::Header Menu-->
                         </div>
@@ -179,7 +185,7 @@
                         <div class="text-dark order-2 order-md-1">
                             <span class="text-muted font-weight-bold mr-2">© <?= date('Y'); ?></span>
                             <a href="https://instagram.com/ory.fikry" target="_blank"
-                                class="text-dark-75 text-hover-primary">Ory Fikry | BoilerPlate</a>
+                                class="text-dark-75 text-hover-primary">Team Eagle | Course Project</a>
                         </div>
                         <!--end::Copyright-->
                     </div>

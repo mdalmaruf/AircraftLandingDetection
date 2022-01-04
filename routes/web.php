@@ -25,7 +25,14 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
-Route::get('/user', [UserController::class, 'index'])->name('user.index');
+Route::get('/user', [UsersController::class, 'index'])->name('user.index');
+Route::get('/prediction', [\App\Http\Controllers\PredictionController::class, 'index'])->name('prediction.index');
+Route::post('/ml_input/train', [\App\Http\Controllers\PredictionController::class, 'ml_input_train'])->name('prediction.ml_input_train');
+Route::post('/ml_input/test', [\App\Http\Controllers\PredictionController::class, 'ml_input_test'])->name('prediction.ml_input_test');
+
+Route::get('/googlemap', [\App\Http\Controllers\PredictionController::class, 'gmap_landingdata'])->name('prediction.gmap_landingdata');
+
+Route::get('/singlemap', [\App\Http\Controllers\PredictionController::class, 'single_landingdata'])->name('prediction.single_landingdata');
 
 // Route::get('/user.get_data',[UserController::class, 'get_data'])->name('get_data');
 Route::resource('users', UsersController::class);
