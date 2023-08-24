@@ -110,10 +110,11 @@ Witness the visual representation of predicted flight paths for enhanced air tra
 
 To get the application up and running on your local machine, follow the instructions provided.
 
-*Xampp: MySQL database: Create Database Name, Create users table with necessary fields*
-*Open the Project in PhpStorms IDE and run the command in the terminal: php artisan serve*
-*PHP-7.4*
-*Laravel Framework 8.26.1*
+    - Xampp: MySQL database: Create Database Name, Create users table with necessary fields
+
+    - Open the Project in PhpStorms IDE and run the command in the terminal: php artisan serve
+    - PHP-7.4*
+    - Laravel Framework 8.26.1
 
 
 ## Contributing
