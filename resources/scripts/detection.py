@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 
 
 
-c_landing = pd.read_csv(r"C:\Users\100641313\PhpstormProjects\laravel-8-boilerplate\resources\scripts\c_landing3000_script_test.csv",  encoding='utf-8-sig', sep='\s*,\s*', engine='python')
+c_landing = pd.read_csv(r"c_landing3000_script_test.csv",  encoding='utf-8-sig', sep='\s*,\s*', engine='python')
 df_ld_gr = c_landing.groupby('landingid')
 
 landing_status=[]
