@@ -1,6 +1,5 @@
-# Laravel 8 Boilerplate
-
-This template is for educational only
+# Aircaft Landing Detection
+This use a login template (Laravel 8 Boilerplate) is for educational only
 ## Features
 - SPA CRUD (no reload-reload club with ajax)
 - Serverside Datatable with Pdf/Excel
