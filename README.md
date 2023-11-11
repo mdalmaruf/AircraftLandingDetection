@@ -1,4 +1,4 @@
-# Aircaft Landing Detection
+# Aircraft Landing Detection
 This use a login template (Laravel 8 Boilerplate) is for educational only
 ## Features
 - SPA CRUD (no reload-reload club with ajax)
